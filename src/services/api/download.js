@@ -1,0 +1,1 @@
+/* eslint-disable */'use strict'// 下载Excel表import http from 'xd-http'// 导出图表数据export const ApiDownloadExcel = (params = null, query = null) => http.$POST('api/download/excel', params, query, {}, false)

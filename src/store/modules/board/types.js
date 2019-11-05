@@ -1,0 +1,1 @@
+export const SET_BOARD_DATA = 'SET_BOARD_DATA'

@@ -1,0 +1,1 @@
+/* eslint-disable */'use strict'// 数据集import http from 'xd-http'// 获取全部数据集export const ApiDatasetAll = (query = {}, params = null) => http.$GET('api/dataset/all', query, params, {}, false)// 根据tableId查询字段export const ApiDatasetFindFieldsByTableId = (params = null, query = null) => http.$POST('api/dataset/findFieldsByTableId', params, query, {}, false)

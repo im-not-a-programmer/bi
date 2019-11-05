@@ -1,0 +1,1 @@
+/* eslint-disable */'use strict'// 文件上传import http from 'xd-http'// 上传附件export const ApiUploadFile = (params = null, query = null) => http.$POST('api/uploadFile', params, query, {}, false)
